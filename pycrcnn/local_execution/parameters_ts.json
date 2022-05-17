@@ -1,0 +1,13 @@
+{
+  "encryption_parameters" : [
+    {
+      "m": 4096,
+      "p": 1511201451,
+      "sec": 128,
+      "base": 2
+    }
+  ],
+
+  "layers" : [0, 1, 2, 3, 4, 5],
+  "batch_size": 1
+}
