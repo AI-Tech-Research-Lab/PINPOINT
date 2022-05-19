@@ -239,9 +239,7 @@ class ARIMA_model:
         if update:
             self.model.update(train.loc[self.last_date:])
         else:
-            self.model.update(train.loc[self.last_date:], maxiter=0)
-            assert np.allclose(self.arparams, self.model.arparams())
-            assert np.allclose(self.maparams, self.model.maparams())
+            self.model.update(train.loc[self.last_date:], maxiter=0)           
             # This is the max we can do, since we have to call update.
             # maxiter=0 "minimizes" the updates in AR/MA parameters.
         

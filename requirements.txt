@@ -78,7 +78,6 @@ ptyprocess==0.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.21
-Pyfhel @ file:///home/ale/Repos/Pyfhel
 Pygments==2.11.2
 PyMeeus==0.5.11
 pyparsing==3.0.6
